@@ -20,20 +20,24 @@
   color: beige;
 }
 
+.nav-link:hover {
+  color: aqua !important;
+}
+
 .hi-text {
-  font-size: 2rem;
+  font-size: 3vw;
   font-weight: 700;
   color: bisque;
 }
 
 .name-text {
-  font-size: 3rem;
+  font-size: 3vw;
   font-weight: 700;
   color: bisque;
 }
 
 .prof-text {
-  font-size: 3rem;
+  font-size: 3vw;
   font-weight: 700;
   color: bisque;
 }
@@ -42,3 +46,30 @@
   color: aqua;
   font-weight: 700;
 }
+
+.section-2 {
+  background-color: #7fc7d9;
+}
+
+.rectangle {
+  width: 20rem;
+  height: 25rem;
+  background-color: lightblue;
+  position: relative;
+}
+
+.imgCircle {
+  width: 200px;
+  height: 200px;
+  background: url('./images/profpic.jpg') no-repeat center center;
+  background-size: cover;
+  border-radius: 50%;
+  position: absolute;
+  top: -100px;
+  right: 55px;
+  /* Adjust this value to change the overlap */
+}
+
+/* Card */
+
+/* Card */

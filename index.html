@@ -31,7 +31,7 @@
   <body>
     <!-- NAVBAR -->
     <div class="firstPage vh-100 img-fluid">
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand d-flex justify-content-md-center" href="#"
             ><img class="img-fluid" width="80" src="./images/devrye.png" alt=""
@@ -50,19 +50,19 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link ms-3" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link ms-3" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link ms-3" href="#">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Tools</a>
+                <a class="nav-link ms-3" href="#">Tools</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Me</a>
+                <a class="nav-link ms-3" href="#">Contact Me</a>
               </li>
             </ul>
           </div>
@@ -70,13 +70,13 @@
       </nav>
 
       <div class="container-fluid">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center vh-100">
           <div
             class="col-md-6 d-flex justify-content-around align-items-center"
             data-aos="fade-in"
           >
             <img
-              class="rounded-4"
+              class="rounded-4 img-fluid"
               width="350"
               src="./images/pic2edited.jpg"
               alt=""
@@ -91,7 +91,7 @@
               <span class="hi-text">Hi! I'm</span>
               <span class="name-text">RYAN EROLL M. AYON</span>
               <span class="prof-text"
-                >Im a <span class="auto-type"></span
+                >I'm a <span class="auto-type"></span
               ></span>
             </div>
           </div>
@@ -100,9 +100,48 @@
     </div>
     <!-- NAVBAR -->
     <!-- Section2 -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col"></div>
+    <div class="section-2 container-fluid vh-100">
+      <div class="row vh-100">
+        <div
+          class="col-md-6 d-flex flex-column justify-content-center align-items-center"
+          data-aos=""
+        >
+          <h1>About Me</h1>
+          <p class="col-8" data-aos="fade-right">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+            aliquid libero illo doloribus? Quaerat saepe exercitationem maiores
+            atque? Eum fuga repudiandae inventore voluptates, earum iure
+            perferendis esse numquam provident maxime.
+          </p>
+          <p class="col-8" data-aos="fade-left">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+            aliquid libero illo doloribus? Quaerat saepe exercitationem maiores
+            atque? Eum fuga repudiandae inventore voluptates, earum iure
+            perferendis esse numquam provident maxime.
+          </p>
+        </div>
+
+        <div
+          class="col-md-6 d-flex flex-column justify-content-center align-items-center mt-5"
+          data-aos="slide-up"
+        >
+          <div
+            class="rectangle d-flex flex-column justify-content-center align-items-center"
+          >
+            <div class="imgCircle"></div>
+            <h4 class="mt-5">Hello! I'm Ryan</h4>
+            <p class="col-10 text-center">
+              I am an Electronics Engineering Graduate with a great Passion in
+              Programming. Taking the leap of faith in shifting career to
+              Technology Industry as a Full Stack Web Developer
+            </p>
+            <div class="d-flex mt-2">
+              <a href=""><i class="mx-3 fa-brands fa-facebook fa-2xl"></i></a
+              ><a href=""><i class="mx-3 fa-brands fa-linkedin fa-2xl"></i></a
+              ><a href=""><i class="mx-3 fa-brands fa-github fa-2xl"></i></a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -119,12 +158,13 @@
     <script>
       AOS.init({
         duration: 1200,
+        easing: 'ease-in-out',
       });
     </script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
       var typed = new Typed('.auto-type', {
-        strings: ['FULLSTACK WEB DEVELOPER', 'ENGINEER', 'GAMER'],
+        strings: ['DEVELOPER', 'PROGRAMMER', 'ENGINEER', 'GAMER'],
         typeSpeed: 100,
         backSpeed: 100,
         loop: true,
